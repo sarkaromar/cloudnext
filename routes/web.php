@@ -16,7 +16,7 @@
 // });
 
 Route::get('/', 'FrontController@index')->name('home');
-Route::get('about', 'FrontController@index')->name('about');
+Route::get('about', 'FrontController@about')->name('about');
 
 // Route::group(['prefix' => 'admin'], function () {
 //     Route::get('login', 'FrontController@index')->name('login');

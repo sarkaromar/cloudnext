@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class FrontController extends Controller
 {
     public function index(){
-        return view('welcome');
+        return view('front.pages.home');
+    }
+    public function about(){
+        return view('front.pages.about');
     }
 }
