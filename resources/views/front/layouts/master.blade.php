@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="{{URL::to('front/image/favicon.png')}}" type="image/png" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="{{URL::to('front/css/vendor.bundle.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::to('front/css/style4963.css?ver=1.1')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::to('front/css/style.css')}}">
 	
 </head>
 <body class="site-body style-v1">

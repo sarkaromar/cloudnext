@@ -50,104 +50,40 @@
                     <!-- MainNav -->
                     <nav class="navbar-collapse collapse" id="mainnav">
                         <ul class="nav navbar-nav no-expanded">
-                            <li class="dropdown"><a href="index-2.html">Home</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="index-2.html">Home - V1 - Default <span class="label label-danger">New</span></a></li>
-                                    <li><a href="index-v2.html">Home - V2 - Alter</a></li>
-                                    <li><a href="index-v3.html">Home - V3 - Transparent</a></li>
-                                    <li><a href="index-v4.html">Home - V4 - Modern</a></li>
-                                    <li><a href="index-v5.html">Home - V5 - Simple</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="{{ route('home') }}">Home</a></li>
                             <li class="dropdown">
-                                <a href="#">Pages</a>
+                                <a href="#">Company</a>
                                 <ul class="dropdown-menu">
-                                    <li class="dropdown"><a href="#">About Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="about2.html">About Us <span class="label label-info">BN</span></a></li>
-                                            <li><a href="testimonial.html">Testimonials</a></li>
-                                            <li><a href="teams.html">Teams - Classic</a></li>
-                                            <li><a href="teams-alter.html">Teams - Alter <span class="label label-danger">New</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Service Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="services.html">Services List</a></li>
-                                            <li><a href="services-alter.html">Services List - Alter</a></li>
-                                            <li><a href="service-single.html">Service Single</a></li>
-                                            <li><a href="service-single-alter.html">Service Single - Alter</a></li>
-                                            <li><a href="service-single-modern.html">Service Single - Modern <span class="label label-danger">New</span></a></li>
-                                            <li><a href="service-single2.html">Service Single <span class="label label-info">BN</span></a></li>
-                                            <li><a href="service-single-alter2.html">Service Single - Alter <span class="label label-info">BN</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Contact Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="get-a-quote.html">Get A Quote</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Blog/News Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="news.html">News/Blog List</a></li>
-                                            <li><a href="news-details.html">News/Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Case Studies <span class="label label-danger">New</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="case-studies-list.html">Case Studies List</a></li>
-                                            <li><a href="case-studies-single.html">Case Studies Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Projects / Portfolio <span class="label label-danger">New</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="portfolio-list.html">Projects List</a></li>
-                                            <li><a href="portfolio-list-filter.html">Projects - Filter</a></li>
-                                            <li><a href="portfolio-single.html">Projects - Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Block Shortcodes <span class="label label-danger">New</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="shortcode.html">Shortcode - Element</a></li>
-                                            <li><a href="shortcode-banner.html">Shortcode - Banner</a></li>
-                                            <li><a href="shortcode-carousel.html">Shortcode - Carousel</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Miscellaneous Pages <span class="label label-danger">New</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="resources.html">Resources</a></li>
-                                            <li><a href="clients.html">Clients</a></li>
-                                            <li><a href="error-404.html">Error 404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.html">Gallery - Lightbox <span class="label label-danger">New</span></a></li>
-                                    <li><a href="faqs.html">FAQ's</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="about.html">About Us</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="testimonial.html">Testimonials</a></li>
-                                    <li><a href="teams.html">Teams / Experts</a></li>
+                                    <li><a href="{{ route('about') }}">About Pages</a></li>
+                                    <li><a href="{{ route('team') }}">Team</a></li>
+                                    <li><a href="{{ route('testimonial') }}">Testimonial</a></li>
+                                    <li><a href="{{ route('whyus') }}">Wwy Choose Us</a></li>
+                                    <li><a href="{{ route('faq') }}">FAQs</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="services.html" class="dropdown-toggle">Services</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="services.html">Services List</a></li>
-                                    <li><a href="services-alter.html">Services List - Alter</a></li>
-                                    <li><a href="service-single.html">Service Single</a></li>
-                                    <li><a href="service-single-alter.html">Service Single - Alter</a></li>
-                                    <li><a href="service-single-modern.html">Service Single - Modern <span class="label label-danger">New</span></a></li>
-                                    <li><a href="service-single2.html">Service Single <span class="label label-info">BN</span></a></li>
-                                    <li><a href="service-single-alter2.html">Service Single - Alter <span class="label label-info">BN</span></a></li>
+                                    <li><a href="{{ route('it_consulting') }}">IT CONSULTING</a></li>
+                                    <li><a href="{{ route('biz_automation') }}">BUSINESS AUTOMATION</a></li>
+                                    <li><a href="{{ route('software_dev') }}">CUSTOM SOFTWARE DEVELOPMENT</a></li>
+                                    <li><a href="{{ route('data_analysis') }}">DATA ANALYTICS</a></li>
+                                    <li><a href="{{ route('web_portal') }}">WEB PORTALS</a></li>
+                                    <li><a href="{{ route('ecommerce') }}">ECOMMERCE</a></li>
+                                    <li><a href="{{ route('outcourced') }}">OUTSOURCED PRODUCT DEVELOPMENT</a></li>
+                                    <li><a href="{{ route('mobile_app') }}">MOBILE APPLICATION DEVELOPMENT</a></li>
+                                    <li><a href="{{ route('web_apps_dev') }}">WEB APPLICATION DEVELOPMENT</a></li>
+                                    <li><a href="{{ route('qa') }}">SOFTWARE TESTING & QA</a></li>
+                                    <li><a href="{{ route('image_analysis') }}">IMAGE ANALYSIS</a></li>
+                                    <li><a href="{{ route('networking') }}">NETWORKING</a></li>
+                                    <li><a href="{{ route('security') }}">SECURITY INTELLIGENCE</a></li>
                                 </ul>
                             </li>
-                            <li><a href="news.html">News</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li class="quote-btn"><a class="btn" href="get-a-quote.html">Free Consultant</a></li>
+                            <li><a href="{{ route('products') }}">PRODUCTS</a></li>
+                            <li><a href="{{ route('portfolio') }}">PORTFOLIO</a></li>
+                            <li><a href="{{ route('news') }}">NEWS</a></li>
+                            <li><a href="{{ route('contact') }}">CONTACT</a></li>
+                            <li class="quote-btn"><a class="btn" href="{{ route('free_consultant') }}">Free Consultant</a></li>
                         </ul>
                     </nav>
                     <!-- #end MainNav -->
