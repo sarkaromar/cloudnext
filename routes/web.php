@@ -45,8 +45,6 @@ Route::get('contact', 'FrontController@contact')->name('contact');
 Route::get('free_consultant', 'FrontController@free_consultant')->name('free_consultant');
 
 
-
-
 // Route::group(['prefix' => 'admin'], function () {
 //     Route::get('login', 'FrontController@index')->name('login');
 //     Route::get('register', 'FrontController@index')->name('reg');

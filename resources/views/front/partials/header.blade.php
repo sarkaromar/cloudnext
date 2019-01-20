@@ -32,9 +32,9 @@
             <div class="navbar navbar-primary">
                 <div class="container">
                     <!-- Logo -->
-                    <a class="navbar-brand" href="index.html">
-                        <img class="logo logo-dark" alt="" src="{{URL::to('front/image/logo.png')}}" srcset="image/logo2x.png 2x">
-                        <img class="logo logo-light" alt="" src="{{URL::to('front/image/logo_white.png')}}" srcset="image/logo_white2x.png 2x">
+                    <a class="navbar-brand" href="{{ route('home') }}">
+                        <img class="logo logo-dark" alt="" src="{{URL::to('front/image/logo.png')}}">
+                        <img class="logo logo-light" alt="" src="{{URL::to('front/image/logo.png')}}">
                     </a>
                     <!-- #end Logo -->
                     <div class="navbar-header">
